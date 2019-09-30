@@ -1,0 +1,61 @@
+                     	Weight (lbf)	CG [x,y,z] (in)	MOI [Ixx, Iyy, Izz] (slug ft^2)	Group	
+Fuselage             	6.703	   19.4,    -0.0,     9.9	  0.011,   0.118,   0.111	None	
+   BulkHead          	0.007	    2.3,     0.0,    12.0	  0.000,   0.001,   0.001	Fuselage	
+   Nose              	1.258	    8.6,    -0.1,    11.2	  0.002,   0.047,   0.046	None	
+      MotorBattery   	0.915	    9.2,     0.0,    11.4	  0.002,   0.032,   0.030	Propulsion	
+      NoseWheelServo 	0.050	    9.2,    -1.8,     8.1	  0.000,   0.002,   0.002	Controls	
+      SpeedController	0.202	    9.1,     0.0,    13.0	  0.001,   0.007,   0.007	Propulsion	
+   BulkHead          	0.036	    9.8,     0.0,    10.1	  0.000,   0.001,   0.001	Fuselage	
+   PyldBay           	4.902	   21.4,    -0.0,     9.9	  0.008,   0.060,   0.056	Fuselage	
+      PixHawk        	0.160	   11.8,     0.0,    12.2	  0.000,   0.004,   0.003	Controller	
+      PowerDist      	0.040	   14.3,    -1.5,    13.3	  0.000,   0.001,   0.000	Controller	
+      GPS            	0.170	   11.2,     0.0,    14.0	  0.001,   0.005,   0.004	Controller	
+      Reciever       	0.030	   14.3,     1.5,    13.8	  0.000,   0.000,   0.000	Telemetry	
+      TelemetryRcv   	0.110	   12.2,     0.0,    10.1	  0.000,   0.002,   0.002	Telemetry	
+      Water1         	2.000	   16.6,     0.0,    10.0	  0.004,   0.013,   0.012	Payload	
+      Water2         	2.000	   30.1,     0.0,    10.0	  0.004,   0.034,   0.033	Payload	
+      RelServo2      	0.050	   27.8,     0.0,     6.6	  0.000,   0.001,   0.000	Controls	
+      RelServo1      	0.050	   14.3,     0.0,     6.6	  0.000,   0.001,   0.001	Controls	
+   BulkHead          	0.036	   32.3,     0.0,    10.1	  0.000,   0.001,   0.001	Fuselage	
+   PyldTaper         	0.094	   18.8,     0.0,     5.9	  0.000,   0.000,   0.000	Fuselage	
+   BulkHead          	0.015	   39.8,     0.0,    12.5	  0.000,   0.001,   0.001	Fuselage	
+   Tail              	0.354	   29.9,     0.0,     6.5	  0.001,   0.006,   0.005	None	
+   BulkHead          	0.000	   69.8,     0.0,    13.4	  0.000,   0.000,   0.000	Fuselage	
+Horizontal Tail      	0.735	   68.2,     0.0,    13.4	  0.021,   0.349,   0.364	None	
+   Skin              	0.105	   67.3,     0.0,    13.4	  0.000,   0.048,   0.048	HTail	
+   MainSpar          	0.336	   67.3,     0.0,    13.4	  0.012,   0.153,   0.163	HTail	
+   LeadingEdge       	0.020	   64.6,     0.0,    13.4	  0.001,   0.008,   0.008	HTail	
+   TrailingEdge      	0.039	   75.6,     0.0,    13.4	  0.001,   0.025,   0.026	HTail	
+   Ribs              	0.097	   67.3,     0.0,    13.4	  0.004,   0.044,   0.047	HTail	
+   Elevator          	0.100	   73.0,     0.0,    13.4	  0.001,   0.058,   0.058	HTail	
+      Servo          	0.019	   68.4,     6.3,    13.4	  0.000,   0.009,   0.009	Controls	
+Vertical Tail        	0.312	   63.2,     0.0,    21.7	  0.012,   0.129,   0.117	None	
+   Skin              	0.041	   62.3,     0.0,    22.0	  0.001,   0.016,   0.015	VTail	
+   MainSpar          	0.144	   62.5,     0.0,    23.3	  0.007,   0.059,   0.052	VTail	
+   LeadingEdge       	0.002	   59.9,     0.0,    23.3	  0.000,   0.001,   0.001	VTail	
+   TrailingEdge      	0.015	   69.4,     0.0,    23.3	  0.001,   0.008,   0.007	VTail	
+   Ribs              	0.041	   62.3,     0.0,    22.0	  0.002,   0.017,   0.015	VTail	
+   Rudder            	0.050	   67.7,     0.0,    23.3	  0.002,   0.025,   0.023	VTail	
+      Servo          	0.019	   62.4,     0.0,    14.2	  0.000,   0.007,   0.007	Controls	
+ACMainWing           	4.121	   20.2,     0.0,    10.8	  1.213,   0.026,   1.233	None	
+   Skin              	0.664	   20.2,     0.0,    10.7	  0.000,   0.001,   0.000	MainWing	
+   MainSpar          	0.810	   20.2,     0.0,    12.7	  0.304,   0.002,   0.302	MainWing	
+   SecondSpar        	0.270	   32.2,     0.0,    12.4	  0.101,   0.007,   0.107	MainWing	
+   ThirdSpar         	0.270	   26.2,     0.0,    12.9	  0.101,   0.002,   0.102	MainWing	
+   TrailingEdge      	0.135	   37.6,     0.0,    11.1	  0.050,   0.008,   0.058	MainWing	
+   LeadingEdge       	0.068	   14.4,     0.0,    11.0	  0.025,   0.001,   0.026	MainWing	
+   LeadingEdgeBent1  	0.084	   15.7,     0.0,    10.6	  0.031,   0.001,   0.032	MainWing	
+   LeadingEdgeBent2  	0.118	   16.1,     0.0,    11.3	  0.044,   0.001,   0.045	MainWing	
+   Ribs              	1.476	   20.2,     0.0,    10.7	  0.390,   0.001,   0.390	MainWing	
+   Aileron           	0.010	   30.2,     0.0,    11.5	  0.000,   0.000,   0.000	MainWing	
+      Servo          	0.216	   21.5,     0.0,    12.2	  0.000,   0.000,   0.000	Controls	
+Propulsion           	1.235	    1.2,     0.0,    13.0	  0.007,   0.116,   0.112	None	
+   APC 20x8E         	0.254	    0.3,     0.0,    13.0	  0.003,   0.027,   0.026	Propulsion	
+   Hacker_A50_14L    	0.981	    1.4,     0.0,    13.0	  0.003,   0.089,   0.086	Propulsion	
+Main Gear            	2.900	   25.1,     0.0,     3.9	  0.042,   0.027,   0.031	None	
+   Strut             	1.350	   25.1,     0.0,     4.0	  0.030,   0.013,   0.025	LandingGear	
+   Wheel             	0.100	   25.0,     0.0,     2.0	  0.003,   0.002,   0.002	LandingGear	
+Nose Gear            	1.100	    9.9,     0.0,     3.8	  0.008,   0.040,   0.032	None	
+   Strut             	1.000	    9.9,     0.0,     4.0	  0.006,   0.036,   0.029	LandingGear	
+   Wheel             	0.100	    9.8,     0.2,     2.0	  0.001,   0.004,   0.003	LandingGear	
+Totals:              	17.11	   21.5,    -0.0,     9.3	  1.314,   0.805,   2.000		
