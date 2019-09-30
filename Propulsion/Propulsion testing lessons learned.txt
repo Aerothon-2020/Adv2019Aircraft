@@ -1,0 +1,8 @@
+Propulsion testing lessons learned
+
+Use a NEW propeller
+Test the RPM sensor
+Test the fishing scale
+Do not start with the back to the wall
+Make sure there is no resistance (shims)
+Make sure that the engine is trimmed
