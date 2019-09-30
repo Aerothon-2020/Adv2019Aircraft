@@ -22,14 +22,14 @@ INDEX
 SECTION
 66.9728768279 0.0 13.375   11.4285714286  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
 AFIL
-"D:\workspace\Airfoils\NACA0012\NACA0012.dat"
+"C:\Users\Matt\PycharmProjects\UC_AircraftDesign\Aerothon-2020\Airfoils\NACA0012\NACA0012.dat"
 CONTROL
 Elevator  1.0  0.5  0. 0. 0.  1.0 | Name  gain  Xhinge  XYZhvec  SgnDup
 #-----------------------
 SECTION
 66.9728768279 21.0 13.375   11.4285714286  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
 AFIL
-"D:\workspace\Airfoils\NACA0012\NACA0012.dat"
+"C:\Users\Matt\PycharmProjects\UC_AircraftDesign\Aerothon-2020\Airfoils\NACA0012\NACA0012.dat"
 CONTROL
 Elevator  1.0  0.5  0. 0. 0.  1.0 | Name  gain  Xhinge  XYZhvec  SgnDup
 #==============================================================
@@ -50,24 +50,24 @@ INDEX
 SECTION
 13.833429694 0.0 10.74375   24.0  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
 AFIL
-"D:\workspace\Airfoils\S1223_TC\S1223_TC.dat"
+"C:\Users\Matt\PycharmProjects\UC_AircraftDesign\Aerothon-2020\Airfoils\S1223_TC\S1223_TC.dat"
 #-----------------------
 SECTION
 13.833429694 36.0 10.74375   24.0  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
 AFIL
-"D:\workspace\Airfoils\S1223_TC\S1223_TC.dat"
+"C:\Users\Matt\PycharmProjects\UC_AircraftDesign\Aerothon-2020\Airfoils\S1223_TC\S1223_TC.dat"
 #-----------------------
 SECTION
 14.793429694 47.52 10.74375   20.16  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
 AFIL
-"D:\workspace\Airfoils\S1223_TC\S1223_TC.dat"
+"C:\Users\Matt\PycharmProjects\UC_AircraftDesign\Aerothon-2020\Airfoils\S1223_TC\S1223_TC.dat"
 CONTROL
 Aileron  1.0  0.75  0. 0. 0.  -1.0 | Name  gain  Xhinge  XYZhvec  SgnDup
 #-----------------------
 SECTION
 16.833429694 72.0 10.74375   12.0  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
 AFIL
-"D:\workspace\Airfoils\S1223_TC\S1223_TC.dat"
+"C:\Users\Matt\PycharmProjects\UC_AircraftDesign\Aerothon-2020\Airfoils\S1223_TC\S1223_TC.dat"
 CONTROL
 Aileron  1.0  0.75  0. 0. 0.  -1.0 | Name  gain  Xhinge  XYZhvec  SgnDup
 #==============================================================
@@ -85,13 +85,13 @@ INDEX
 SECTION
 66.830019685 0.0 14.25   12.0  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
 AFIL
-"D:\workspace\Airfoils\NACA0012\NACA0012.dat"
+"C:\Users\Matt\PycharmProjects\UC_AircraftDesign\Aerothon-2020\Airfoils\NACA0012\NACA0012.dat"
 CONTROL
 Rudder  1.0  0.5  0. 0. 0.  -1.0 | Name  gain  Xhinge  XYZhvec  SgnDup
 #-----------------------
 SECTION
 69.830019685 0.0 34.25   9.0  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
 AFIL
-"D:\workspace\Airfoils\NACA0012\NACA0012.dat"
+"C:\Users\Matt\PycharmProjects\UC_AircraftDesign\Aerothon-2020\Airfoils\NACA0012\NACA0012.dat"
 CONTROL
 Rudder  1.0  0.5  0. 0. 0.  -1.0 | Name  gain  Xhinge  XYZhvec  SgnDup

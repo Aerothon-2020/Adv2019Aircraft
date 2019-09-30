@@ -8,7 +8,7 @@ from Aerothon.ACWingWeight import ACRibWing
 from Aerothon.DefaultMaterialsLibrary import Monokote, PinkFoam, Basswood, Steel, Balsa, Aluminum, Ultracote
 from Adv2019Aircraft.MonoWing.Fuselage  import Fuselage
 #from Adv2019Aircraft.Propulsion.Aircraft_Propulsion import Propulsion
-from Reg2015Aircraft_AeroCats.Propulsion.Propulsion import Propulsion
+from Reg2015Aircraft_Aerocats.Propulsion.Propulsion import Propulsion
 from Adv2019Aircraft.MonoWing.Wing import Wing
 import pylab as pyl
 import cmath as math
