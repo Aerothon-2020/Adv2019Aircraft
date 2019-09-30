@@ -1,0 +1,135 @@
+AeroCats_2013
+0.0			| Mach
+0 0 0.0		| iYsym  iZsym  Zsym
+3485.0 24.2040892588 148.0		| Sref   Cref   Bref
+15.625 0.0 5.00349065673		| Xref   Yref   Zref
+0.0			| CDp  (optional)
+#==============================================================
+#
+SURFACE
+Horizontal Tail
+10  1.0  20  -2.0  |  Nchord   Cspace   Nspan  Sspace
+
+YDUPLICATE
+0.0
+
+ANGLE
+-0.399214590433
+
+INDEX
+2
+#-----------------------
+SECTION
+51.1631760099 0.0 17.0034906567   8.33333333333  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\eclipse\workspace\AircraftDesign\trunk\Airfoils\E169\E169_inv.dat"
+#-----------------------
+SECTION
+51.1631760099 10.92 17.0034906567   8.33333333333  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\eclipse\workspace\AircraftDesign\trunk\Airfoils\E169\E169_inv.dat"
+CONTROL
+Elevator  1.0  0.5  0. 0. 0.  1.0 | Name  gain  Xhinge  XYZhvec  SgnDup
+#-----------------------
+SECTION
+51.1631760099 39.0 17.0034906567   8.33333333333  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\eclipse\workspace\AircraftDesign\trunk\Airfoils\E169\E169_inv.dat"
+CONTROL
+Elevator  1.0  0.5  0. 0. 0.  1.0 | Name  gain  Xhinge  XYZhvec  SgnDup
+#==============================================================
+#
+SURFACE
+ACMainWing
+10  1.0  20  -2.0  |  Nchord   Cspace   Nspan  Sspace
+
+YDUPLICATE
+0.0
+
+ANGLE
+0.0
+
+INDEX
+1
+#-----------------------
+SECTION
+6.27057969602 0.0 8.00349065673   26.7582695779  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\eclipse\workspace\AircraftDesign\trunk\Airfoils\LNV109A\LNV109A.dat"
+#-----------------------
+SECTION
+6.27057969602 34.53358 8.00349065673   26.7582695779  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\eclipse\workspace\AircraftDesign\trunk\Airfoils\LNV109A\LNV109A.dat"
+#-----------------------
+SECTION
+6.65625866219 39.59 8.19291148146   25.2155537133  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\eclipse\workspace\AircraftDesign\trunk\Airfoils\LNV109A\LNV109A.dat"
+CONTROL
+Aileron  1.0  0.75  0. 0. 0.  -1.0 | Name  gain  Xhinge  XYZhvec  SgnDup
+#-----------------------
+SECTION
+8.91400176872 69.19 9.30177039983   16.1845812871  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\eclipse\workspace\AircraftDesign\trunk\Airfoils\LNV109A\LNV109A.dat"
+CONTROL
+Aileron  1.0  0.75  0. 0. 0.  -1.0 | Name  gain  Xhinge  XYZhvec  SgnDup
+#-----------------------
+SECTION
+9.28088502354 74.0 9.48195997407   14.7170482679  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\eclipse\workspace\AircraftDesign\trunk\Airfoils\LNV109A\LNV109A.dat"
+#==============================================================
+#
+SURFACE
+Vertical Tail
+10  1.0  20  -2.0  |  Nchord   Cspace   Nspan  Sspace
+
+ANGLE
+0.0
+
+INDEX
+3
+#-----------------------
+SECTION
+50.1215093433 0.0 7.00349065673   12.5  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\eclipse\workspace\AircraftDesign\trunk\Airfoils\NACA0012\NACA0012.dat"
+CONTROL
+Rudder  1.0  0.5  0. 0. 0.  -1.0 | Name  gain  Xhinge  XYZhvec  SgnDup
+#-----------------------
+SECTION
+50.1215093433 0.0 17.0034906567   12.5  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\eclipse\workspace\AircraftDesign\trunk\Airfoils\NACA0012\NACA0012.dat"
+CONTROL
+Rudder  1.0  0.5  0. 0. 0.  -1.0 | Name  gain  Xhinge  XYZhvec  SgnDup
+#==============================================================
+#
+SURFACE
+Vertical Tail 2
+10  1.0  20  -2.0  |  Nchord   Cspace   Nspan  Sspace
+
+YDUPLICATE
+0.0
+
+ANGLE
+0.0
+
+INDEX
+4
+#-----------------------
+SECTION
+50.1215093433 28.08 5.00349065673   12.5  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\eclipse\workspace\AircraftDesign\trunk\Airfoils\NACA0012\NACA0012.dat"
+CONTROL
+Rudder  1.0  0.5  0. 0. 0.  -1.0 | Name  gain  Xhinge  XYZhvec  SgnDup
+#-----------------------
+SECTION
+50.1215093433 28.08 17.0034906567   12.5  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\eclipse\workspace\AircraftDesign\trunk\Airfoils\NACA0012\NACA0012.dat"
+CONTROL
+Rudder  1.0  0.5  0. 0. 0.  -1.0 | Name  gain  Xhinge  XYZhvec  SgnDup

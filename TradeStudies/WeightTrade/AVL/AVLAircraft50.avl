@@ -1,0 +1,130 @@
+AeroCats_2013
+0.0			| Mach
+0 0 0.0		| iYsym  iZsym  Zsym
+3400.0 22.5473183969 155.0		| Sref   Cref   Bref
+14.625 0.0 5.00349065673		| Xref   Yref   Zref
+0.0			| CDp  (optional)
+#==============================================================
+#
+SURFACE
+Horizontal Tail
+10  1.0  20  -2.0  |  Nchord   Cspace   Nspan  Sspace
+
+YDUPLICATE
+0.0
+
+ANGLE
+-2.53480387255
+
+INDEX
+2
+#-----------------------
+SECTION
+41.4373879755 0.0 17.1421107218   10.6686244496  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\eclipse\workspace\AircraftDesign\trunk\Airfoils\NACA0012\NACA0012_inv.dat"
+CONTROL
+Elevator  1.0  0.5  0. 0. 0.  1.0 | Name  gain  Xhinge  XYZhvec  SgnDup
+#-----------------------
+SECTION
+41.4373879755 39.0 17.1421107218   10.6686244496  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\eclipse\workspace\AircraftDesign\trunk\Airfoils\NACA0012\NACA0012_inv.dat"
+CONTROL
+Elevator  1.0  0.5  0. 0. 0.  1.0 | Name  gain  Xhinge  XYZhvec  SgnDup
+#==============================================================
+#
+SURFACE
+ACMainWing
+10  1.0  20  -2.0  |  Nchord   Cspace   Nspan  Sspace
+
+YDUPLICATE
+0.0
+
+ANGLE
+0.0
+
+INDEX
+1
+#-----------------------
+SECTION
+5.54034096379 0.0 8.00349065673   24.9266649727  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\eclipse\workspace\AircraftDesign\trunk\Airfoils\S1223_A\S1223_A.dat"
+#-----------------------
+SECTION
+5.54034096379 36.166925 8.00349065673   24.9266649727  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\eclipse\workspace\AircraftDesign\trunk\Airfoils\S1223_A\S1223_A.dat"
+#-----------------------
+SECTION
+5.71559014562 38.75 8.11262883721   24.2256682454  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\eclipse\workspace\AircraftDesign\trunk\Airfoils\S1223_A\S1223_A.dat"
+CONTROL
+Aileron  1.0  0.65  0. 0. 0.  -1.0 | Name  gain  Xhinge  XYZhvec  SgnDup
+#-----------------------
+SECTION
+8.08169071046 73.625 9.58614162497   14.761265986  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\eclipse\workspace\AircraftDesign\trunk\Airfoils\S1223_A\S1223_A.dat"
+CONTROL
+Aileron  1.0  0.65  0. 0. 0.  -1.0 | Name  gain  Xhinge  XYZhvec  SgnDup
+#-----------------------
+SECTION
+8.34459077321 77.5 9.74986526805   13.709665735  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\eclipse\workspace\AircraftDesign\trunk\Airfoils\S1223_A\S1223_A.dat"
+#==============================================================
+#
+SURFACE
+Vertical Tail
+10  1.0  20  -2.0  |  Nchord   Cspace   Nspan  Sspace
+
+YDUPLICATE
+0.0
+
+ANGLE
+0.0
+
+INDEX
+3
+#-----------------------
+SECTION
+41.5698890716 39.0 7.00349065673   10.138620065  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\eclipse\workspace\AircraftDesign\trunk\Airfoils\NACA0012\NACA0012.dat"
+CONTROL
+Rudder  1.0  0.5  0. 0. 0.  -1.0 | Name  gain  Xhinge  XYZhvec  SgnDup
+#-----------------------
+SECTION
+41.5698890716 39.0 17.1421107218   10.138620065  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\eclipse\workspace\AircraftDesign\trunk\Airfoils\NACA0012\NACA0012.dat"
+CONTROL
+Rudder  1.0  0.5  0. 0. 0.  -1.0 | Name  gain  Xhinge  XYZhvec  SgnDup
+#==============================================================
+#
+SURFACE
+Vertical Tail 2
+10  1.0  20  -2.0  |  Nchord   Cspace   Nspan  Sspace
+
+ANGLE
+0.0
+
+INDEX
+4
+#-----------------------
+SECTION
+41.5698890716 0.0 7.00349065673   10.138620065  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\eclipse\workspace\AircraftDesign\trunk\Airfoils\NACA0012\NACA0012.dat"
+CONTROL
+Rudder  1.0  0.5  0. 0. 0.  1.0 | Name  gain  Xhinge  XYZhvec  SgnDup
+#-----------------------
+SECTION
+41.5698890716 0.0 17.1421107218   10.138620065  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\eclipse\workspace\AircraftDesign\trunk\Airfoils\NACA0012\NACA0012.dat"
+CONTROL
+Rudder  1.0  0.5  0. 0. 0.  1.0 | Name  gain  Xhinge  XYZhvec  SgnDup
